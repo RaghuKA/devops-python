@@ -39,7 +39,7 @@ Open the page http://127.0.0.1:5000/. In this page the added tasks are displayed
 The work flow "Docker push" automatically pushes the new releases to the docker container rkumdocker/devopspython.
 
 # Kubernetes container management
-Using the following commands the Docker containers can be manageged in Kubernetes.
+Using the following commands the Docker containers can be managed in Kubernetes.
 
 To create pod
 * kubectl create -f pod.yaml
