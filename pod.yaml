@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: devopspod
+  labels:
+    app: flask
+spec:
+  containers:
+    - name: devopspod
+      image: rkumdocker/devopspython

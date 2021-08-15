@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devopspod
+  labels:
+    app: flask
+spec:
+  template:
+    metadata:
+      name: devopspod
+      labels:
+        app: flask
+    spec:
+      containers:
+        - name: devopspod
+          image: rkumdocker/devopspython
+  replicas: 4
+  selector:
+    matchLabels:
+      app: flask
