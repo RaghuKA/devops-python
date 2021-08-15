@@ -15,7 +15,11 @@ class Todoslist(db.Model):
     task = db.Column(db.String(100))
     complete = db.Column(db.Boolean)
 
-
+# Flask webpage
+@app.route('/hello')
+def index():
+    return 'Hello Everyone'
+    
 @app.route("/edit")
 def home():
     todos_list = Todoslist.query.all()
