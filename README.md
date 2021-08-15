@@ -1,5 +1,5 @@
 
-# DevOps pipeline with Python and Flask 
+# DevOps-Python
 
 This is a DevOps pipeline for a web app displaying Todos list. The purpose of this project is to demonstrate how to create a DevOps pipeline using GitHub Actions.
 
@@ -7,7 +7,7 @@ This is a DevOps pipeline for a web app displaying Todos list. The purpose of th
 * Displays Todos list with update (completed or not completed) and delete options 
 *	Cloud deployment 
 ​
-# Dependencies
+## Dependencies
 
 + Flask
 + html
@@ -17,12 +17,12 @@ This is a DevOps pipeline for a web app displaying Todos list. The purpose of th
 + Docker
 + Kubernetes (minikube and kubectl)
 
-# Installation
+## Installation
 
 To install the required software packages to run the web app, use the following command.
 * pip3 install -r req.txt
 
-# Usage
+## Usage
 
 Clone the repository:
 	git clone https://github.com/RaghuKA/devops-python.git
@@ -37,11 +37,11 @@ Open the page http://127.0.0.1:5000/. In this page the added tasks are displayed
   <img src="ListPage.png">
 </p>
 
-# DevOps workflow
+## DevOps workflow
 
 The work flow "Docker push" automatically pushes the new releases to the docker container rkumdocker/devopspython.
 
-# Kubernetes container management
+## Kubernetes container management
 
 Using the following commands the Docker containers can be managed in Kubernetes.
 
