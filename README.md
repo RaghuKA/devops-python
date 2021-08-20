@@ -5,7 +5,7 @@ This is a DevOps pipeline for a web app displaying Todos list. The purpose of th
 
 *	Web app is developed using python and flask 
 * Displays Todos list with update (completed or not completed) and delete options 
-*	Cloud deployment 
+*	Docker and Kubernetes deployment 
 ​
 ## Dependencies
 
