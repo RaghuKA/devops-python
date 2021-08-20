@@ -27,7 +27,7 @@ To install the required software packages to run the web app, use the following 
 Clone the repository:
 	git clone https://github.com/RaghuKA/devops-python.git
 
-Open the page http://127.0.0.1:5000/edit. In this page the tasks can be added or updated or deleted.
+First run the file "app.py" in your python editor in terminal to connect to the Flask server. Then open the page http://127.0.0.1:5000/edit. In this page the tasks can be added or updated or deleted.
 <p align="center">
   <img src="EditPage.png">
 </p>
